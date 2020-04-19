@@ -6,8 +6,8 @@ import torch.optim as optim
 from torch.distributions.normal import Normal
 import numpy as np
 
-from models import Encoder
-from dataset import load
+from model import Encoder
+
 
 def train(epoch):
     model.train()
