@@ -3,7 +3,6 @@
     Author: Pablo Botton da Costa
 
 """
-import spacy
 from torchtext.datasets import TranslationDataset
 from torchtext import data, datasets
 
